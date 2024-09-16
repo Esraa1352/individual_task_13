@@ -37,7 +37,7 @@ A variation of gradient descent is stochastic gradient descent, which speeds up 
 ## following the [Implementing our network to classify digits] section in the chapter 
 so by making the model by following the blocks of code provided in this section of the chapter and i also ran an equivalent model using a PyTorch or TensorFlow library 
 i compared between them and found the following:
-1. ### Ease of Use
+**1.** ### Ease of Use
 **Neural Network (from scratch):**
 - Requires significant time and effort to understand and implement all aspects of neural networks, including network architecture, forward propagation, backpropagation, and gradient descent.
 -Managing and debugging the code can be complex, making it less user-friendly and more time-consuming, especially for beginners.
@@ -45,7 +45,7 @@ i compared between them and found the following:
 **PyTorch/TensorFlow:**
 - PyTorch and TensorFlow are designed to make life easier. They offer user-friendly tools and APIs that take care of much of the heavy lifting. With built-in functionalities and automated processes, these frameworks let you focus more on tweaking your model and less on dealing with the nitty-gritty details of implementation.
  
-### Performance
+**2.** ### Performance
 **Neural Network (from scratch):**
 - Performance is generally slow , While the accuracy may be comparable actually on trying the accuracy was higher than PyTorch/TensorFlow
 
@@ -53,7 +53,7 @@ i compared between them and found the following:
 - Include highly optimized libraries for computation and hardware acceleration, resulting in faster convergence and better overall training performance.
 The use of pre-built optimizers and loss functions contributes to improved efficiency and higher accuracy in model training
 
-### Flexibility
+**3.** ### Flexibility
 **Neural Network (from scratch):**
 - When you build a neural network from scratch, you’ve got complete freedom. You control everything from the network architecture to the optimization algorithms. This is awesome for experimenting and fine-tuning, but it also means you need a deep understanding of how everything works, which can be pretty demanding.
 
