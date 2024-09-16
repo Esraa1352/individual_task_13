@@ -47,7 +47,7 @@ i compared between them and found the following:
  
 ### Performance
 **Neural Network (from scratch):**
-- Performance is generally, While the accuracy may be comparable actually on trying the accuracy was higher than PyTorch/TensorFlow
+- Performance is generally slow , While the accuracy may be comparable actually on trying the accuracy was higher than PyTorch/TensorFlow
 
 **PyTorch/TensorFlow:**
 - Include highly optimized libraries for computation and hardware acceleration, resulting in faster convergence and better overall training performance.
