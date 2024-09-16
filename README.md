@@ -34,5 +34,28 @@ The learning rate controls how much the weights are updated with each step. If t
 ## Stochastic Gradient Descent (SGD)
 A variation of gradient descent is stochastic gradient descent, which speeds up the learning process. Instead of using the entire dataset to calculate the gradient, SGD uses small, random subsets of data called mini-batches. This allows the network to make more frequent updates and often leads to faster convergence, helping avoid problems like getting stuck in local minima.
 
+## following the [Implementing our network to classify digits] section in the chapter 
+so by making the model by following the blocks of code provided in this section of the chapter and i also ran an equivalent model using a PyTorch or TensorFlow library 
+i compared between them and found the following:
+### Ease of Use
+**Neural Network (from scratch):**
+-Requires significant time and effort to understand and implement all aspects of neural networks, including network architecture, forward propagation, backpropagation, and gradient descent.
+-Managing and debugging the code can be complex, making it less user-friendly and more time-consuming, especially for beginners.
 
+**PyTorch/TensorFlow:**
+- PyTorch and TensorFlow are designed to make life easier. They offer user-friendly tools and APIs that take care of much of the heavy lifting. With built-in functionalities and automated processes, these frameworks let you focus more on tweaking your model and less on dealing with the nitty-gritty details of implementation.
+ 
+### Performance
+**Neural Network (from scratch):**
+-Performance is generally, While the accuracy may be comparable actually on trying the accuracy was higher than PyTorch/TensorFlow
 
+**PyTorch/TensorFlow:**
+-Include highly optimized libraries for computation and hardware acceleration, resulting in faster convergence and better overall training performance.
+The use of pre-built optimizers and loss functions contributes to improved efficiency and higher accuracy in model training
+
+### Flexibility
+**Neural Network (from scratch):**
+-When you build a neural network from scratch, you’ve got complete freedom. You control everything from the network architecture to the optimization algorithms. This is awesome for experimenting and fine-tuning, but it also means you need a deep understanding of how everything works, which can be pretty demanding.
+
+**PyTorch/TensorFlow:**
+These frameworks are pretty flexible too, but they come with some built-in structures. You can customize models and tweak parameters, but it’s not as wide-open as building from scratch. Still, they strike a great balance between flexibility and ease of use, making it easier to play around with different setups without getting bogged down in the details
