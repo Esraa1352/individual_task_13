@@ -15,9 +15,9 @@ While perceptrons can compute simple functions, they’re not very flexible. To 
 
 ## Architecture of Neural Networks
 A typical neural network has three types of layers:
-Input layer: Where the data (like images or signals or numbers in our case) enters the network.
-Output layer: Where the network produces its result.
-Hidden layers: The intermediate layers that do most of the heavy computation. The design of these hidden layers often requires skill and experimentation.
+-Input layer: Where the data (like images or signals or numbers in our case) enters the network.
+-Output layer: Where the network produces its result.
+-Hidden layers: The intermediate layers that do most of the heavy computation. The design of these hidden layers often requires skill and experimentation.
 Neural networks can be feedforward networks, where the output of one layer is passed as input to the next. In this way, information flows in one direction from the input to the output.
 
 ## Training the Model
