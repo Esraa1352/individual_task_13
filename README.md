@@ -11,7 +11,7 @@ For example, we can design a network of perceptrons to mimic NAND gates, each wi
 ## Sigmoid Neurons
 While perceptrons can compute simple functions, they’re not very flexible. To improve the performance, scientists introduced sigmoid neurons. Instead of outputting only 0 or 1, sigmoid neurons use an activation function that outputs values between 0 and 1. This allows the network to handle probabilities and gives it more nuance when making decisions.
 (the function is mentioned in the chapter )
-فا
+
 
 ## Architecture of Neural Networks
 A typical neural network has three types of layers:
