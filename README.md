@@ -15,9 +15,9 @@ While perceptrons can compute simple functions, they’re not very flexible. To 
 
 ## Architecture of Neural Networks
 A typical neural network has three types of layers:
--Input layer: Where the data (like images or signals or numbers in our case) enters the network.
--Output layer: Where the network produces its result.
--Hidden layers: The intermediate layers that do most of the heavy computation. The design of these hidden layers often requires skill and experimentation.
+- Input layer: Where the data (like images or signals or numbers in our case) enters the network.
+- Output layer: Where the network produces its result.
+- Hidden layers: The intermediate layers that do most of the heavy computation. The design of these hidden layers often requires skill and experimentation.
 Neural networks can be feedforward networks, where the output of one layer is passed as input to the next. In this way, information flows in one direction from the input to the output.
 
 ## Training the Model
@@ -39,7 +39,7 @@ so by making the model by following the blocks of code provided in this section 
 i compared between them and found the following:
 ### Ease of Use
 **Neural Network (from scratch):**
--Requires significant time and effort to understand and implement all aspects of neural networks, including network architecture, forward propagation, backpropagation, and gradient descent.
+- Requires significant time and effort to understand and implement all aspects of neural networks, including network architecture, forward propagation, backpropagation, and gradient descent.
 -Managing and debugging the code can be complex, making it less user-friendly and more time-consuming, especially for beginners.
 
 **PyTorch/TensorFlow:**
@@ -47,15 +47,15 @@ i compared between them and found the following:
  
 ### Performance
 **Neural Network (from scratch):**
--Performance is generally, While the accuracy may be comparable actually on trying the accuracy was higher than PyTorch/TensorFlow
+- Performance is generally, While the accuracy may be comparable actually on trying the accuracy was higher than PyTorch/TensorFlow
 
 **PyTorch/TensorFlow:**
--Include highly optimized libraries for computation and hardware acceleration, resulting in faster convergence and better overall training performance.
+- Include highly optimized libraries for computation and hardware acceleration, resulting in faster convergence and better overall training performance.
 The use of pre-built optimizers and loss functions contributes to improved efficiency and higher accuracy in model training
 
 ### Flexibility
 **Neural Network (from scratch):**
--When you build a neural network from scratch, you’ve got complete freedom. You control everything from the network architecture to the optimization algorithms. This is awesome for experimenting and fine-tuning, but it also means you need a deep understanding of how everything works, which can be pretty demanding.
+- When you build a neural network from scratch, you’ve got complete freedom. You control everything from the network architecture to the optimization algorithms. This is awesome for experimenting and fine-tuning, but it also means you need a deep understanding of how everything works, which can be pretty demanding.
 
 **PyTorch/TensorFlow:**
-These frameworks are pretty flexible too, but they come with some built-in structures. You can customize models and tweak parameters, but it’s not as wide-open as building from scratch. Still, they strike a great balance between flexibility and ease of use, making it easier to play around with different setups without getting bogged down in the details
+- These frameworks are pretty flexible too, but they come with some built-in structures. You can customize models and tweak parameters, but it’s not as wide-open as building from scratch. Still, they strike a great balance between flexibility and ease of use, making it easier to play around with different setups without getting bogged down in the details
