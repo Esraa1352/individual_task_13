@@ -37,7 +37,7 @@ A variation of gradient descent is stochastic gradient descent, which speeds up 
 ## following the [Implementing our network to classify digits] section in the chapter 
 so by making the model by following the blocks of code provided in this section of the chapter and i also ran an equivalent model using a PyTorch or TensorFlow library 
 i compared between them and found the following:
-### Ease of Use
+1. ### Ease of Use
 **Neural Network (from scratch):**
 - Requires significant time and effort to understand and implement all aspects of neural networks, including network architecture, forward propagation, backpropagation, and gradient descent.
 -Managing and debugging the code can be complex, making it less user-friendly and more time-consuming, especially for beginners.
